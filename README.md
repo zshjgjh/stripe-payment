@@ -1,20 +1,31 @@
 # Flutter Payment Integration App
 
-This is a practical implementation of integrating Stripe and PayPal payment gateways in a Flutter application. The purpose of this project is to learn the differences between payment gateways and in-app purchases as well as to choose the right payment gateway for your Flutter app.
+This application demonstrates a practical implementation of integrating **Stripe** and **PayPal** payment gateways in a Flutter application. The purpose is to understand the differences between these payment gateways and in-app purchases while learning how to choose the right payment gateway for your Flutter app.
 
 
 ## Features
 
-- **Stripe Integration:** Accept payments via credit/debit cards using Stripe.
-- **PayPal Integration:** Support for PayPal payments.
-- **User Interface:** Simple and intuitive UI for making payments.
-- **In-App Payment Processing:** Understand the differences between third-party payment gateways and in-app purchases.
+- **Stripe Integration:**
+  - Accept payments via credit/debit cards using the Stripe API.
+  - Support for multiple currencies.
+  - Easy to use and customizable UI components.
+
+- **PayPal Integration:**
+  - Support for one-time payments and subscriptions using PayPal.
+  - User-friendly checkout experience with PayPal's trusted interface.
+  
+- **User Interface:**
+  - Clean and intuitive design for a seamless payment process.
+  - Responsive UI that adapts to various screen sizes.
+
+- **In-App Payment Processing:**
+  - Compare and understand the differences between third-party payment gateways and in-app purchases.
+  - Example implementations for both payment methods.
 
 ## Installation
 
-To get started with the project, clone the repository and install the necessary dependencies.
+To get started with the project, follow these steps:
 
-```bash
-git clone https://github.com/yourusername/flutter-payment-integration.git
-cd flutter-payment-integration
-flutter pub get
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/flutter-payment-integration.git
